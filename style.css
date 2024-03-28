@@ -5,7 +5,28 @@
 body {
   margin: 0;
   padding: 0;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#container {
+  height: 500px;
+  width: 700px;
+  margin: auto;
+  background-color: aqua;
+}
+
+.que {
+  background-color: yellow;
+  padding: 10px 50px;
+}
+.ans {
+  background-color: green;
+  padding: 10px 50px;
+}
+
+.hide {
+  display: none;
 }
